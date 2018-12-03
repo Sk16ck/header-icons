@@ -7,6 +7,43 @@ html {
   box-sizing: inherit;
 }
 
+.header {
+  background-color: #d05c2e;
+  color: #fff;
+}
+
+
+.header li {
+  list-style-type: none;
+}
+
+.header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 33%;
+}
+
+.header a {
+  padding: .5em 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
 body {
   background-color: #fff;
+}
+
+img {
+  width: 40px;
 }
