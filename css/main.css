@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -12,9 +13,9 @@ html {
   color: #fff;
 }
 
-
 .header li {
   list-style-type: none;
+  width: 33.333%;
 }
 
 .header div {
@@ -25,22 +26,31 @@ html {
 
 .header ul {
   display: flex;
-  margin: 0;
   padding: 0;
-  width: 33%;
+  margin: 0;
+  border: 1px solid #a63f38;
 }
 
 .header a {
+  display: block;
+  font-size: 1.125rem;
+  text-align: center;
   padding: .5em 0;
   text-decoration: none;
   color: #fff;
 }
 
+.header a:hover {
+  background-color: #a63f38;
+}
+
 h1 {
   font-size: 2rem;
+  margin: 0;
 }
 
 body {
+  margin: 0;
   background-color: #fff;
 }
 
